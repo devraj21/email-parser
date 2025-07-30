@@ -84,12 +84,12 @@ graph TB
     AI --> Ollama
     Server --> Output
 
-    %% Styling
-    classDef client fill:#e1f5fe
-    classDef transport fill:#f3e5f5
-    classDef core fill:#e8f5e8
-    classDef engine fill:#fff3e0
-    classDef data fill:#fce4ec
+    %% Styling for better visibility on dark/light themes
+    classDef client fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000
+    classDef transport fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef core fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#000
+    classDef engine fill:#fff8e1,stroke:#f57c00,stroke-width:2px,color:#000
+    classDef data fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
 
     class CLI,Claude,WebApp,Dashboard client
     class MCP,HTTP,WS transport
@@ -180,11 +180,11 @@ flowchart TD
     
     Output --> End([Complete])
 
-    %% Styling
-    classDef startEnd fill:#c8e6c9,stroke:#4caf50,stroke-width:2px
-    classDef process fill:#e3f2fd,stroke:#2196f3,stroke-width:1px
-    classDef decision fill:#fff3e0,stroke:#ff9800,stroke-width:2px
-    classDef ai fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
+    %% Styling for better visibility on dark/light themes
+    classDef startEnd fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef decision fill:#fff8e1,stroke:#ef6c00,stroke-width:3px,color:#000
+    classDef ai fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
 
     class Start,End startEnd
     class ParseSingle,ParseFolder,ParseText,Extract,Batch,Direct,Traditional,Format,Output process
