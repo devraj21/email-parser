@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "description": "Data Ingestion Templates Configuration",
+  "templates": {
+    "template_1": {
+      "id": 1,
+      "name": "Batchload Data Template",
+      "description": "Original demographic data template for general customer data",
+      "template_file": "template/Batchload files/Batchload Data Template.xlsx",
+      "sheet_name": null,
+      "header_row": 0,
+      "output_suffix": "",
+      "data_transformations": {
+        "date_format": "DD/MM/YYYY",
+        "gender_standardization": {
+          "M": "Male",
+          "F": "Female",
+          "MALE": "Male",
+          "FEMALE": "Female"
+        },
+        "name_case": "title",
+        "postcode_case": "upper"
+      }
+    },
+    "template_2": {
+      "id": 2,
+      "name": "UK Membership Template - BUPA update June 2025_MEDICAL",
+      "description": "Template for medical insurance membership changes and updates",
+      "template_file": "template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx",
+      "sheet_name": null,
+      "header_row": 0,
+      "use_first_row_as_headers": false,
+      "output_suffix": "_template_2",
+      "data_transformations": {
+        "date_format": "YYYY-MM-DD",
+        "gender_standardization": {
+          "M": "Male",
+          "F": "Female",
+          "MALE": "Male",
+          "FEMALE": "Female"
+        },
+        "name_case": "title",
+        "change_indicators": {
+          "A": "Addition",
+          "D": "Deletion", 
+          "C": "Change",
+          "M": "Modification"
+        }
+      }
+    }
+  },
+  "file_patterns": {
+    "template_1_files": {
+      "description": "Files that use the Batchload Data template",
+      "patterns": [
+        "examples/Batchload files/*.csv",
+        "examples/Batchload files/*.xls",
+        "examples/Batchload files/*.xlsx"
+      ],
+      "exclude_patterns": [
+        "**/Data Template.xlsx"
+      ],
+      "default_template": "template_1"
+    },
+    "template_2_files": {
+      "description": "Files that use the UK Membership template",
+      "patterns": [
+        "examples/Change files/*.csv",
+        "examples/Change files/*.xls", 
+        "examples/Change files/*.xlsx"
+      ],
+      "exclude_patterns": [
+        "**/UK Membership Template*.xlsx"
+      ],
+      "default_template": "template_2"
+    }
+  },
+  "column_mappings": {
+    "template_1": {
+      "basic_info": {
+        "Group Number": ["Group No", "group_number", "group no", "scheme_number", "Scheme Number"],
+        "Name": ["Name", "name", "company_name", "Company Name"],
+        "Client Ref.": ["Client Ref", "client_ref", "payroll_number", "Payroll Number", "staff_number", "Staff number"],
+        "Location": ["Location", "LOCATION", "location", "geographical_location", "Geographical Location"],
+        "T.O.C": ["Type of Cover", "TOC", "Level Of Cover", "level_of_cover", "Option selected"],
+        "Ni Number": ["National Insurance", "ni_number", "NI Number", "NiNumber", "National insurance number"]
+      },
+      "personal_details": {
+        "Surname": ["Surname", "SURNAME", "surname", "last_name"],
+        "Forename": ["Forename", "FORENAME", "forename", "first_name", "First name", "ForeNames"],
+        "Title": ["Title", "TITLE", "title"],
+        "Dob": ["DOB", "dob", "Date of Birth", "date_of_birth", "DateOfBirth"],
+        "Sex": ["Sex", "sex", "Gender", "gender", "GENDER"]
+      },
+      "address": {
+        "Address 1": ["Address 1", "address_1", "address1", "Building", "Street", "Address line 1"],
+        "Address 2": ["Address 2", "address_2", "address2", "Sub-Street", "Address line 2"],
+        "Address 3": ["Address 3", "address_3", "address3", "City/Town", "Town", "Address line 3"],
+        "Address 4": ["Address 4", "address_4", "address4", "County", "State"],
+        "Post Code": ["POST CODE", "Post Code", "post_code", "postcode", "Postcode", "Post code"]
+      },
+      "contact": {
+        "Work Email Address": ["WORK EMAIL ADDRESS", "work_email", "Work Email", "Email", "email"]
+      },
+      "family": {
+        "Spouse Surname": ["Spouse Surname", "spouse_surname", "S SURNAME"],
+        "S Forename": ["S FORENAME", "s_forename", "Spouse Forename", "spouse_forename"],
+        "S Dob": ["S DOB", "s_dob", "Spouse DOB", "spouse_dob"],
+        "S Sex": ["S Sex", "s_sex", "Spouse Sex", "spouse_sex"]
+      },
+      "children_patterns": {
+        "forename": ["child\\s*(\\d+)\\s*forename", "child\\s*forename\\s*(\\d+)", "dependant\\s*(\\d+)\\s*first\\s*name"],
+        "surname": ["child\\s*(\\d+)\\s*surname", "child\\s*surname\\s*(\\d+)", "dependant\\s*(\\d+)\\s*surname"],
+        "sex": ["child\\s*(\\d+)\\s*sex", "child\\s*sex\\s*(\\d+)", "dependant\\s*(\\d+)\\s*gender"],
+        "dob": ["child\\s*(\\d+)\\s*dob", "child\\s*dob\\s*(\\d+)", "dependant\\s*(\\d+)\\s*date\\s*of\\s*birth"],
+        "max_children": 5
+      }
+    },
+    "template_2": {
+      "core_fields": {
+        "Ind": ["Change", "Instruction", "Action Type", "Change Type", "Employee reason for change"],
+        "Date": ["Effective Date", "date", "change_date", "Date", "EFFECTIVE DATE"],
+        "number": ["Group No", "Group Number", "group_number", "scheme_number"],
+        "name": ["Group Name", "Company Name", "group_name", "Name"],
+        "Description": ["Product", "Product Description", "Benefit", "product", "PRODUCT"],
+        "Reference": ["Client Ref", "Employee Number", "Staff number", "Payroll Number", "payroll_number"]
+      },
+      "personal_details": {
+        "Surname": ["Surname", "SURNAME", "surname", "last_name"],
+        "First Name": ["Forename", "FORENAME", "forename", "first_name", "First name", "ForeNames"],
+        "Title": ["Title", "TITLE", "title"],
+        "Date of Birth": ["DOB", "dob", "Date of Birth", "date_of_birth", "DateOfBirth"],
+        "Sex": ["Sex", "sex", "Gender", "gender", "GENDER"]
+      },
+      "coverage": {
+        "of Cover": ["Type of Cover", "Type Of Cover", "Level Of Cover", "level_of_cover", "Option selected", "Scale"],
+        "Information": ["Location", "LOCATION", "location", "geographical_location", "National Insurance", "ni_number"]
+      },
+      "family_members": {
+        "Relationship": ["Relationship", "relationship", "Type Of Cover"],
+        "Surname1": ["Spouse Surname", "spouse_surname", "S SURNAME", "Dependant Surname"],
+        "First Name1": ["S FORENAME", "s_forename", "Spouse Forename", "spouse_forename", "Dependant First Name"],
+        "Title1": ["Spouse Title", "spouse_title", "S Title"],
+        "Sex1": ["S Sex", "s_sex", "Spouse Sex", "spouse_sex", "Spouse Gender"],
+        "Date of Birth1": ["S DOB", "s_dob", "Spouse DOB", "spouse_dob", "Spouse Date of Birth"]
+      },
+      "dependant_patterns": {
+        "relationship": ["relationship(\\d+)", "relation\\s*(\\d+)"],
+        "surname": ["surname(\\d+)", "dependant\\s*(\\d+)\\s*surname"],
+        "forename": ["first\\s*name(\\d+)", "forename(\\d+)", "dependant\\s*(\\d+)\\s*first\\s*name"],
+        "title": ["title(\\d+)", "dependant\\s*(\\d+)\\s*title"],
+        "sex": ["sex(\\d+)", "gender(\\d+)", "dependant\\s*(\\d+)\\s*gender"],
+        "dob": ["date\\s*of\\s*birth(\\d+)", "dob(\\d+)", "dependant\\s*(\\d+)\\s*date\\s*of\\s*birth"],
+        "max_dependants": 10
+      }
+    }
+  },
+  "processing_rules": {
+    "header_detection": {
+      "max_header_rows_to_check": 5,
+      "min_non_empty_columns": 3,
+      "unnamed_column_threshold": 0.5
+    },
+    "data_quality": {
+      "required_fields": {
+        "template_1": ["Surname", "Forename"],
+        "template_2": ["Reference", "Surname"]
+      },
+      "validation_rules": {
+        "min_rows": 1,
+        "max_empty_percentage": 0.8,
+        "duplicate_check": true
+      }
+    },
+    "output": {
+      "file_format": "xlsx",
+      "preserve_original_names": false,
+      "add_processing_timestamp": true,
+      "include_mapping_summary": true
+    }
+  }
+}

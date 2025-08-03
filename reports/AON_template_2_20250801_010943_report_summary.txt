@@ -1,0 +1,121 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:09:43.537556
+
+FILE INFORMATION:
+----------------------------------------
+Input File: AON.xls
+File Path: examples/Change files/AON.xls
+File Size: 0.03 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_2
+Template Name: UK Membership Template - BUPA update June 2025_MEDICAL
+Description: Template for medical insurance membership changes and updates
+Template File: template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 46
+Total Output Records: 0
+Input Columns: 63
+Output Columns: 2
+Mapped Columns: 39
+Mapping Coverage: 1950.0%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 2
+Empty Columns: 37
+Average Data Coverage: 4.96%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Ind <- Employee reason for change 
+number <- Group Number
+name <- Group Name
+Reference <- Employee Number
+Surname <- Surname
+First Name <- Forename
+Title <- Title
+Date of Birth <- Date of Birth
+Sex <- Sex
+Relationship1 <- Dependant Relationship1
+Relationship2 <- Dependant Relationship2
+Relationship3 <- Dependant Relationship3
+Relationship4 <- Dependant Relationship4
+Relationship5 <- Dependant Relationship5
+Relationship6 <- Dependant Relationship6
+Surname1 <- Dependant Surname1
+Surname2 <- Dependant Surname2
+Surname3 <- Dependant Surname3
+Surname4 <- Dependant Surname4
+Surname5 <- Dependant Surname5
+Surname6 <- Dependant Surname6
+First Name1 <- Dependant Forename1
+First Name2 <- Dependant Forename2
+First Name3 <- Dependant Forename3
+First Name4 <- Dependant Forename4
+First Name5 <- Dependant Forename5
+First Name6 <- Dependant Forename6
+Sex1 <- Dependant Sex1
+Sex2 <- Dependant Sex2
+Sex3 <- Dependant Sex3
+Sex4 <- Dependant Sex4
+Sex5 <- Dependant Sex5
+Sex6 <- Dependant Sex6
+Date of Birth1 <- Dependant Date of Birth1
+Date of Birth2 <- Dependant Date of Birth2
+Date of Birth3 <- Dependant Date of Birth3
+Date of Birth4 <- Dependant Date of Birth4
+Date of Birth5 <- Dependant Date of Birth5
+Date of Birth6 <- Dependant Date of Birth6
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Ind                            Employee reason for change     43         93.5%
+number                         Group Number                   0          0.0%
+name                           Group Name                     0          0.0%
+Reference                      Employee Number                0          0.0%
+Surname                        Surname                        0          0.0%
+First Name                     Forename                       0          0.0%
+Title                          Title                          0          0.0%
+Date of Birth                  Date of Birth                  0          0.0%
+Sex                            Sex                            46         100.0%
+Relationship1                  Dependant Relationship1        0          0.0%
+Relationship2                  Dependant Relationship2        0          0.0%
+Relationship3                  Dependant Relationship3        0          0.0%
+Relationship4                  Dependant Relationship4        0          0.0%
+Relationship5                  Dependant Relationship5        0          0.0%
+Relationship6                  Dependant Relationship6        0          0.0%
+Surname1                       Dependant Surname1             0          0.0%
+Surname2                       Dependant Surname2             0          0.0%
+Surname3                       Dependant Surname3             0          0.0%
+Surname4                       Dependant Surname4             0          0.0%
+Surname5                       Dependant Surname5             0          0.0%
+Surname6                       Dependant Surname6             0          0.0%
+First Name1                    Dependant Forename1            0          0.0%
+First Name2                    Dependant Forename2            0          0.0%
+First Name3                    Dependant Forename3            0          0.0%
+First Name4                    Dependant Forename4            0          0.0%
+First Name5                    Dependant Forename5            0          0.0%
+First Name6                    Dependant Forename6            0          0.0%
+Sex1                           Dependant Sex1                 0          0.0%
+Sex2                           Dependant Sex2                 0          0.0%
+Sex3                           Dependant Sex3                 0          0.0%
+Sex4                           Dependant Sex4                 0          0.0%
+Sex5                           Dependant Sex5                 0          0.0%
+Sex6                           Dependant Sex6                 0          0.0%
+Date of Birth1                 Dependant Date of Birth1       0          0.0%
+Date of Birth2                 Dependant Date of Birth2       0          0.0%
+Date of Birth3                 Dependant Date of Birth3       0          0.0%
+Date of Birth4                 Dependant Date of Birth4       0          0.0%
+Date of Birth5                 Dependant Date of Birth5       0          0.0%
+Date of Birth6                 Dependant Date of Birth6       0          0.0%
+
+================================================================================

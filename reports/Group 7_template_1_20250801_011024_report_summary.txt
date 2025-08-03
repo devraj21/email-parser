@@ -1,0 +1,65 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.586800
+
+FILE INFORMATION:
+----------------------------------------
+Input File: Group 7.xls
+File Path: examples/Batchload files/Group 7.xls
+File Size: 0.02 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_1
+Template Name: Batchload Data Template
+Description: Original demographic data template for general customer data
+Template File: template/Batchload files/Batchload Data Template.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 2
+Total Output Records: 2
+Input Columns: 72
+Output Columns: 51
+Mapped Columns: 11
+Mapping Coverage: 21.57%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 10
+Empty Columns: 1
+Average Data Coverage: 90.91%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Name <- Company Name
+T.O.C <- Level of Cover
+Surname <- Surname
+Forename <- Forename
+Title <- Title
+Dob <- Date of Birth
+Sex <- Gender
+Address 1 <- Address Line 1
+Address 2 <- Address Line 2
+Address 3 <- Address Line 3
+Post Code <- Postcode
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Name                           Company Name                   2          100.0%
+T.O.C                          Level of Cover                 2          100.0%
+Surname                        Surname                        2          100.0%
+Forename                       Forename                       2          100.0%
+Title                          Title                          2          100.0%
+Dob                            Date of Birth                  2          100.0%
+Sex                            Gender                         2          100.0%
+Address 1                      Address Line 1                 2          100.0%
+Address 2                      Address Line 2                 2          100.0%
+Address 3                      Address Line 3                 0          0.0%
+Post Code                      Postcode                       2          100.0%
+
+================================================================================

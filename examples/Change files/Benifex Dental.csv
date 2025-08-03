@@ -1,0 +1,13 @@
+Effective Date,Group No,Product,Client Ref,Type Of Cover,National Insurance,Location,Surname,Initial,Forename,Title,DOB,Sex,Building,Street,Sub-Street,City/Town,Post Code,Telephone,Email,S Title,Spouse Surname,S Forename,S DOB,S Sex,Child 1 Title,Child 1 Surname,Child 1 Initial,Child 1 Forename,Child 1 DOB,Child 1 Sex,Child 2 Title,Child 2 Surname,Child 2 Initial,Child 2 Forename,Child 2 DOB,Child 2 Sex,Child 3 Title,Child 3 Surname,Child 3 Initial,Child 3 Forename,Child 3 DOB,Child 3 Sex,Child 4 Title,Child 4 Surname,Child 4 Initial,Child 4 Forename,Child 4 DOB,Child 4 Sex,Child 5 Title,Child 5 Surname,Child 5 Initial,Child 5 Forename,Child 5 DOB,Child 5 Sex,Child 6 Title,Child 6 Surname,Child 6 Initial,Child 6 Forename,Child 6 DOB,Child 6 Sex,Child 7 Title,Child 7 Surname,Child 7 Initial,Child 7 Forename,Child 7 DOB,Child 7 Sex,Child 8 Title,Child 8 Surname,Child 8 Initial,Child 8 Forename,Child 8 DOB,Child 8 Sex,Change Type,Change Detail
+01/09/2024,,Level 1,13557,Single,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,"Building, Street, Post Code"
+01/09/2024,,Level 1,2490,Single,,,,,,,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,
+01/09/2024,,Level 3,26374,Single,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,
+01/09/2024,,Level 1,28079,Couple,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,"Building, Street, Sub-Street, Post Code"
+01/06/2025,,Level 3,33253,Single,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,
+01/09/2024,,Level 1,37579,Single,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,"Building, Post Code"
+01/09/2024,,Level 1,38508,Couple,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,"Building, Street, Post Code"
+01/09/2024,,Level 1,42320,Single,,,,,,,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M,"Building, Street, Post Code"
+01/09/2024,,Level 1,43480,Couple,,,,,,,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,
+01/06/2025,,Level 4,46216,Single,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,
+01/06/2025,,Level 1,46752,Couple,,,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,A,
+01/09/2024,,Level 3,6106,Single Parent Family,,,,,,,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,

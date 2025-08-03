@@ -1,0 +1,43 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.986582
+
+FILE INFORMATION:
+----------------------------------------
+Input File: Darwin IDT 2607094844 PMI-JLC.xls
+File Path: examples/Change files/Darwin IDT 2607094844 PMI-JLC.xls
+File Size: 0.02 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_2
+Template Name: UK Membership Template - BUPA update June 2025_MEDICAL
+Description: Template for medical insurance membership changes and updates
+Template File: template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 18
+Total Output Records: 0
+Input Columns: 61
+Output Columns: 2
+Mapped Columns: 0
+Mapping Coverage: 0.0%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 0
+Empty Columns: 0
+Average Data Coverage: 0%
+
+COLUMN MAPPINGS:
+----------------------------------------
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+
+================================================================================

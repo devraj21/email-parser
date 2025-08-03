@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "description": "File to Template Mapping Configuration - Edit this file to define which files use which templates",
+  "default_template": "template_1",
+  "file_mappings": [
+    {
+      "name": "Batchload Data Template Files",
+      "description": "Files using the Batchload Data template",
+      "template": "template_1",
+      "input_patterns": [
+        "examples/Batchload files/Group*.csv",
+        "examples/Batchload files/Group*.xls",
+        "examples/Batchload files/Group*.xlsx"
+      ],
+      "exclude_patterns": [
+        "**/Data Template.xlsx"
+      ],
+      "output_folder": "output/template_1"
+    },
+    {
+      "name": "UK Membership Template Files",
+      "description": "Files using the UK Membership template",
+      "template": "template_2",
+      "input_patterns": [
+        "examples/Change files/*.csv",
+        "examples/Change files/*.xls",
+        "examples/Change files/*.xlsx",
+        "examples/Change files/AON*",
+        "examples/Change files/*Dental*",
+        "examples/Change files/Darwin*"
+      ],
+      "exclude_patterns": [
+        "**/UK Membership Template*.xlsx"
+      ],
+      "output_folder": "output/template_2"
+    },
+    {
+      "name": "Custom Template Example",
+      "description": "Example configuration for adding a new template type",
+      "template": "custom_template_name",
+      "input_patterns": [
+        "examples/Custom files/*.csv",
+        "data/imports/*.xlsx"
+      ],
+      "exclude_patterns": [
+        "**/template*.xlsx",
+        "**/Template*.xlsx"
+      ],
+      "output_folder": "output/custom",
+      "enabled": false,
+      "notes": "Set enabled: true and define the template in templates_config.json to use this mapping"
+    }
+  ],
+  "specific_file_overrides": {
+    "description": "Override template for specific files (takes precedence over pattern matching)",
+    "overrides": {
+      "examples/Change files/Special_File.xlsx": "template_1",
+      "examples/Batchload files/Medical_Special.csv": "template_2"
+    }
+  },
+  "auto_detection": {
+    "enabled": true,
+    "description": "Attempt to auto-detect template based on file content if no mapping found",
+    "detection_rules": [
+      {
+        "template": "template_2",
+        "conditions": {
+          "required_columns": ["Change", "Effective Date", "Group No"],
+          "column_count_range": [60, 100]
+        }
+      },
+      {
+        "template": "template_1", 
+        "conditions": {
+          "required_columns": ["Client Ref", "Surname", "Forename"],
+          "column_count_range": [30, 80]
+        }
+      }
+    ]
+  },
+  "processing_options": {
+    "parallel_processing": true,
+    "max_workers": 4,
+    "batch_size": 100,
+    "continue_on_error": true,
+    "create_summary_report": true
+  }
+}

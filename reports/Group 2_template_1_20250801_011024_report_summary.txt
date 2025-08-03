@@ -1,0 +1,81 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.504034
+
+FILE INFORMATION:
+----------------------------------------
+Input File: Group 2.csv
+File Path: examples/Batchload files/Group 2.csv
+File Size: 0.0 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_1
+Template Name: Batchload Data Template
+Description: Original demographic data template for general customer data
+Template File: template/Batchload files/Batchload Data Template.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 2
+Total Output Records: 2
+Input Columns: 67
+Output Columns: 51
+Mapped Columns: 19
+Mapping Coverage: 37.25%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 17
+Empty Columns: 2
+Average Data Coverage: 78.95%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Group Number <- Group No
+Client Ref. <- Client Ref
+Location <- LOCATION
+T.O.C <- Type of Cover
+Ni Number <- National Insurance
+Surname <- SURNAME
+Forename <- FORENAME
+Title <- TITLE
+Dob <- DOB
+Sex <- Sex
+Address 1 <- Building
+Address 2 <- Sub-Street
+Address 3 <- City/Town
+Post Code <- POST CODE
+Work Email Address <- WORK EMAIL ADDRESS
+Spouse Surname <- Spouse Surname
+S Forename <- S FORENAME
+S Dob <- S DOB
+S Sex <- S Sex
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Group Number                   Group No                       2          100.0%
+Client Ref.                    Client Ref                     2          100.0%
+Location                       LOCATION                       2          100.0%
+T.O.C                          Type of Cover                  2          100.0%
+Ni Number                      National Insurance             2          100.0%
+Surname                        SURNAME                        2          100.0%
+Forename                       FORENAME                       2          100.0%
+Title                          TITLE                          2          100.0%
+Dob                            DOB                            2          100.0%
+Sex                            Sex                            2          100.0%
+Address 1                      Building                       2          100.0%
+Address 2                      Sub-Street                     0          0.0%
+Address 3                      City/Town                      0          0.0%
+Post Code                      POST CODE                      2          100.0%
+Work Email Address             WORK EMAIL ADDRESS             2          100.0%
+Spouse Surname                 Spouse Surname                 1          50.0%
+S Forename                     S FORENAME                     1          50.0%
+S Dob                          S DOB                          1          50.0%
+S Sex                          S Sex                          1          50.0%
+
+================================================================================

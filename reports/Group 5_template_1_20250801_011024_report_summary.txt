@@ -1,0 +1,73 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.481227
+
+FILE INFORMATION:
+----------------------------------------
+Input File: Group 5.csv
+File Path: examples/Batchload files/Group 5.csv
+File Size: 0.0 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_1
+Template Name: Batchload Data Template
+Description: Original demographic data template for general customer data
+Template File: template/Batchload files/Batchload Data Template.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 2
+Total Output Records: 2
+Input Columns: 79
+Output Columns: 51
+Mapped Columns: 15
+Mapping Coverage: 29.41%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 13
+Empty Columns: 2
+Average Data Coverage: 86.67%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Client Ref. <- Staff number
+Location <- Geographical Location
+T.O.C <- Option selected
+Ni Number <- National insurance number
+Surname <- Surname
+Forename <- First name
+Title <- Title
+Dob <- Date of birth
+Sex <- Gender
+Address 1 <- Address line 1
+Address 2 <- Address line 2
+Address 3 <- Town
+Address 4 <- County
+Post Code <- Post code
+Work Email Address <- Work email address
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Client Ref.                    Staff number                   2          100.0%
+Location                       Geographical Location          2          100.0%
+T.O.C                          Option selected                2          100.0%
+Ni Number                      National insurance number      2          100.0%
+Surname                        Surname                        2          100.0%
+Forename                       First name                     2          100.0%
+Title                          Title                          2          100.0%
+Dob                            Date of birth                  2          100.0%
+Sex                            Gender                         2          100.0%
+Address 1                      Address line 1                 2          100.0%
+Address 2                      Address line 2                 2          100.0%
+Address 3                      Town                           0          0.0%
+Address 4                      County                         0          0.0%
+Post Code                      Post code                      2          100.0%
+Work Email Address             Work email address             2          100.0%
+
+================================================================================

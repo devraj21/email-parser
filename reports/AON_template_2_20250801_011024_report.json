@@ -1,0 +1,460 @@
+{
+  "processing_timestamp": "2025-08-01T01:10:24.864534",
+  "file_info": {
+    "input_file": "AON.xls",
+    "input_file_path": "examples/Change files/AON.xls",
+    "file_size_mb": 0.03
+  },
+  "template_info": {
+    "template_id": "template_2",
+    "template_name": "UK Membership Template - BUPA update June 2025_MEDICAL",
+    "template_description": "Template for medical insurance membership changes and updates",
+    "template_file": "template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx"
+  },
+  "processing_summary": {
+    "total_input_records": 46,
+    "total_output_records": 0,
+    "input_columns": 63,
+    "output_columns": 2,
+    "mapped_columns": 39,
+    "mapping_coverage_percentage": 1950.0
+  },
+  "column_mappings": [
+    {
+      "target_column": "Ind",
+      "source_column": "Employee reason for change "
+    },
+    {
+      "target_column": "number",
+      "source_column": "Group Number"
+    },
+    {
+      "target_column": "name",
+      "source_column": "Group Name"
+    },
+    {
+      "target_column": "Reference",
+      "source_column": "Employee Number"
+    },
+    {
+      "target_column": "Surname",
+      "source_column": "Surname"
+    },
+    {
+      "target_column": "First Name",
+      "source_column": "Forename"
+    },
+    {
+      "target_column": "Title",
+      "source_column": "Title"
+    },
+    {
+      "target_column": "Date of Birth",
+      "source_column": "Date of Birth"
+    },
+    {
+      "target_column": "Sex",
+      "source_column": "Sex"
+    },
+    {
+      "target_column": "Relationship1",
+      "source_column": "Dependant Relationship1"
+    },
+    {
+      "target_column": "Relationship2",
+      "source_column": "Dependant Relationship2"
+    },
+    {
+      "target_column": "Relationship3",
+      "source_column": "Dependant Relationship3"
+    },
+    {
+      "target_column": "Relationship4",
+      "source_column": "Dependant Relationship4"
+    },
+    {
+      "target_column": "Relationship5",
+      "source_column": "Dependant Relationship5"
+    },
+    {
+      "target_column": "Relationship6",
+      "source_column": "Dependant Relationship6"
+    },
+    {
+      "target_column": "Surname1",
+      "source_column": "Dependant Surname1"
+    },
+    {
+      "target_column": "Surname2",
+      "source_column": "Dependant Surname2"
+    },
+    {
+      "target_column": "Surname3",
+      "source_column": "Dependant Surname3"
+    },
+    {
+      "target_column": "Surname4",
+      "source_column": "Dependant Surname4"
+    },
+    {
+      "target_column": "Surname5",
+      "source_column": "Dependant Surname5"
+    },
+    {
+      "target_column": "Surname6",
+      "source_column": "Dependant Surname6"
+    },
+    {
+      "target_column": "First Name1",
+      "source_column": "Dependant Forename1"
+    },
+    {
+      "target_column": "First Name2",
+      "source_column": "Dependant Forename2"
+    },
+    {
+      "target_column": "First Name3",
+      "source_column": "Dependant Forename3"
+    },
+    {
+      "target_column": "First Name4",
+      "source_column": "Dependant Forename4"
+    },
+    {
+      "target_column": "First Name5",
+      "source_column": "Dependant Forename5"
+    },
+    {
+      "target_column": "First Name6",
+      "source_column": "Dependant Forename6"
+    },
+    {
+      "target_column": "Sex1",
+      "source_column": "Dependant Sex1"
+    },
+    {
+      "target_column": "Sex2",
+      "source_column": "Dependant Sex2"
+    },
+    {
+      "target_column": "Sex3",
+      "source_column": "Dependant Sex3"
+    },
+    {
+      "target_column": "Sex4",
+      "source_column": "Dependant Sex4"
+    },
+    {
+      "target_column": "Sex5",
+      "source_column": "Dependant Sex5"
+    },
+    {
+      "target_column": "Sex6",
+      "source_column": "Dependant Sex6"
+    },
+    {
+      "target_column": "Date of Birth1",
+      "source_column": "Dependant Date of Birth1"
+    },
+    {
+      "target_column": "Date of Birth2",
+      "source_column": "Dependant Date of Birth2"
+    },
+    {
+      "target_column": "Date of Birth3",
+      "source_column": "Dependant Date of Birth3"
+    },
+    {
+      "target_column": "Date of Birth4",
+      "source_column": "Dependant Date of Birth4"
+    },
+    {
+      "target_column": "Date of Birth5",
+      "source_column": "Dependant Date of Birth5"
+    },
+    {
+      "target_column": "Date of Birth6",
+      "source_column": "Dependant Date of Birth6"
+    }
+  ],
+  "affected_columns_detail": [
+    {
+      "target_column": "Ind",
+      "source_column": "Employee reason for change ",
+      "records_with_data": 43,
+      "records_empty": 3,
+      "data_percentage": 93.47826086956522
+    },
+    {
+      "target_column": "number",
+      "source_column": "Group Number",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "name",
+      "source_column": "Group Name",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Reference",
+      "source_column": "Employee Number",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname",
+      "source_column": "Surname",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name",
+      "source_column": "Forename",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Title",
+      "source_column": "Title",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth",
+      "source_column": "Date of Birth",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex",
+      "source_column": "Sex",
+      "records_with_data": 46,
+      "records_empty": 0,
+      "data_percentage": 100.0
+    },
+    {
+      "target_column": "Relationship1",
+      "source_column": "Dependant Relationship1",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Relationship2",
+      "source_column": "Dependant Relationship2",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Relationship3",
+      "source_column": "Dependant Relationship3",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Relationship4",
+      "source_column": "Dependant Relationship4",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Relationship5",
+      "source_column": "Dependant Relationship5",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Relationship6",
+      "source_column": "Dependant Relationship6",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname1",
+      "source_column": "Dependant Surname1",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname2",
+      "source_column": "Dependant Surname2",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname3",
+      "source_column": "Dependant Surname3",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname4",
+      "source_column": "Dependant Surname4",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname5",
+      "source_column": "Dependant Surname5",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Surname6",
+      "source_column": "Dependant Surname6",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name1",
+      "source_column": "Dependant Forename1",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name2",
+      "source_column": "Dependant Forename2",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name3",
+      "source_column": "Dependant Forename3",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name4",
+      "source_column": "Dependant Forename4",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name5",
+      "source_column": "Dependant Forename5",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "First Name6",
+      "source_column": "Dependant Forename6",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex1",
+      "source_column": "Dependant Sex1",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex2",
+      "source_column": "Dependant Sex2",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex3",
+      "source_column": "Dependant Sex3",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex4",
+      "source_column": "Dependant Sex4",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex5",
+      "source_column": "Dependant Sex5",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Sex6",
+      "source_column": "Dependant Sex6",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth1",
+      "source_column": "Dependant Date of Birth1",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth2",
+      "source_column": "Dependant Date of Birth2",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth3",
+      "source_column": "Dependant Date of Birth3",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth4",
+      "source_column": "Dependant Date of Birth4",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth5",
+      "source_column": "Dependant Date of Birth5",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    },
+    {
+      "target_column": "Date of Birth6",
+      "source_column": "Dependant Date of Birth6",
+      "records_with_data": 0,
+      "records_empty": 46,
+      "data_percentage": 0.0
+    }
+  ],
+  "data_quality_metrics": {
+    "columns_with_data": 2,
+    "completely_empty_columns": 37,
+    "average_data_coverage": 4.96
+  }
+}

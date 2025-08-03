@@ -1,0 +1,79 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.888329
+
+FILE INFORMATION:
+----------------------------------------
+Input File: Benifex Dental.csv
+File Path: examples/Change files/Benifex Dental.csv
+File Size: 0.0 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_2
+Template Name: UK Membership Template - BUPA update June 2025_MEDICAL
+Description: Template for medical insurance membership changes and updates
+Template File: template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 12
+Total Output Records: 0
+Input Columns: 75
+Output Columns: 2
+Mapped Columns: 18
+Mapping Coverage: 900.0%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 7
+Empty Columns: 11
+Average Data Coverage: 38.89%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Ind <- Change Type
+Date <- Effective Date
+number <- Group No
+Description <- Product
+Reference <- Client Ref
+Surname <- Surname
+First Name <- Forename
+Title <- Title
+Date of Birth <- DOB
+Sex <- Sex
+of Cover <- Type Of Cover
+Information <- Location
+Relationship <- Type Of Cover
+Surname1 <- Spouse Surname
+First Name1 <- S Forename
+Title1 <- S Title
+Sex1 <- S Sex
+Date of Birth1 <- S DOB
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Ind                            Change Type                    12         100.0%
+Date                           Effective Date                 12         100.0%
+number                         Group No                       0          0.0%
+Description                    Product                        12         100.0%
+Reference                      Client Ref                     12         100.0%
+Surname                        Surname                        0          0.0%
+First Name                     Forename                       0          0.0%
+Title                          Title                          0          0.0%
+Date of Birth                  DOB                            0          0.0%
+Sex                            Sex                            12         100.0%
+of Cover                       Type Of Cover                  12         100.0%
+Information                    Location                       0          0.0%
+Relationship                   Type Of Cover                  12         100.0%
+Surname1                       Spouse Surname                 0          0.0%
+First Name1                    S Forename                     0          0.0%
+Title1                         S Title                        0          0.0%
+Sex1                           S Sex                          0          0.0%
+Date of Birth1                 S DOB                          0          0.0%
+
+================================================================================

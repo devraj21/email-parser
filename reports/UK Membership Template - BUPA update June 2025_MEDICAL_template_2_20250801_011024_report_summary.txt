@@ -1,0 +1,45 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.807305
+
+FILE INFORMATION:
+----------------------------------------
+Input File: UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+File Path: examples/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+File Size: 0.03 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_2
+Template Name: UK Membership Template - BUPA update June 2025_MEDICAL
+Description: Template for medical insurance membership changes and updates
+Template File: template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 8
+Total Output Records: 0
+Input Columns: 2
+Output Columns: 2
+Mapped Columns: 1
+Mapping Coverage: 50.0%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 1
+Empty Columns: 0
+Average Data Coverage: 87.5%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Ind <- Instruction
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Ind                            Instruction                    7          87.5%
+
+================================================================================

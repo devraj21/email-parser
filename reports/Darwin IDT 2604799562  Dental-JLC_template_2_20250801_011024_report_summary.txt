@@ -1,0 +1,57 @@
+================================================================================
+DATA INGESTION PROCESSING REPORT
+================================================================================
+
+Processing Time: 2025-08-01T01:10:24.972667
+
+FILE INFORMATION:
+----------------------------------------
+Input File: Darwin IDT 2604799562  Dental-JLC.xls
+File Path: examples/Change files/Darwin IDT 2604799562  Dental-JLC.xls
+File Size: 0.04 MB
+
+TEMPLATE INFORMATION:
+----------------------------------------
+Template ID: template_2
+Template Name: UK Membership Template - BUPA update June 2025_MEDICAL
+Description: Template for medical insurance membership changes and updates
+Template File: template/Change files/UK Membership Template - BUPA update June 2025_MEDICAL.xlsx
+
+PROCESSING SUMMARY:
+----------------------------------------
+Total Input Records: 80
+Total Output Records: 0
+Input Columns: 68
+Output Columns: 2
+Mapped Columns: 7
+Mapping Coverage: 350.0%
+
+DATA QUALITY METRICS:
+----------------------------------------
+Columns with Data: 2
+Empty Columns: 5
+Average Data Coverage: 28.57%
+
+COLUMN MAPPINGS:
+----------------------------------------
+Reference <- Employee Number
+Surname <- Surname
+First Name <- Forenames
+Title <- Title
+Date of Birth <- Date of Birth
+Sex <- Gender
+of Cover <- Level Of Cover
+
+AFFECTED COLUMNS DETAIL:
+----------------------------------------
+Target Column                  Source Column                  Records    Coverage  
+--------------------------------------------------------------------------------
+Reference                      Employee Number                0          0.0%
+Surname                        Surname                        0          0.0%
+First Name                     Forenames                      0          0.0%
+Title                          Title                          0          0.0%
+Date of Birth                  Date of Birth                  0          0.0%
+Sex                            Gender                         80         100.0%
+of Cover                       Level Of Cover                 80         100.0%
+
+================================================================================
