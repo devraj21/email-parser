@@ -74,6 +74,9 @@ email_parser.log
 sample_emails/
 temp/
 logs/*.log
+*.csv
+*.xls
+*.xlsx
 
 # Output directory (keep structure, ignore contents)
 output/*
