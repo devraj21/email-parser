@@ -10,8 +10,8 @@ import argparse
 import os
 import sys
 from typing import Optional
-from data_ingestion_mapper_v2 import ConfigurableDataIngestionMapper
-from config_manager import create_default_configs
+from .mapper import ConfigurableDataIngestionMapper
+from .config_manager import create_default_configs
 
 def auto_process_all(config_dir: str = "config", base_output_dir: str = "output") -> None:
     """Automatically process all files based on configuration mappings."""
@@ -93,7 +93,7 @@ def validate_config(config_dir: str = "config") -> None:
     print("-" * 60)
     
     try:
-        from config_manager import ConfigurationManager
+        from .config_manager import ConfigurationManager
         config_manager = ConfigurationManager(config_dir)
         
         errors = config_manager.validate_configuration()
@@ -130,7 +130,7 @@ def validate_config(config_dir: str = "config") -> None:
 def list_templates(config_dir: str = "config") -> None:
     """List available templates with their configurations."""
     try:
-        from config_manager import ConfigurationManager
+        from .config_manager import ConfigurationManager
         config_manager = ConfigurationManager(config_dir)
         
         templates = config_manager.get_available_templates()

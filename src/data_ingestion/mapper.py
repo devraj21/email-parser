@@ -14,7 +14,7 @@ import json
 from typing import Dict, List, Tuple, Any, Optional
 from datetime import datetime
 import logging
-from config_manager import ConfigurationManager
+from .config_manager import ConfigurationManager
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

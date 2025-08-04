@@ -77,6 +77,8 @@ logs/*.log
 *.csv
 *.xls
 *.xlsx
+*.txt
+reports
 
 # Output directory (keep structure, ignore contents)
 output/*
